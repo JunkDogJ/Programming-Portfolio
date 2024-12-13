@@ -1,3 +1,39 @@
+/*
+This Java program, MorseCode, is a simple utility for translating between English text and Morse code. It provides the following functionalities:
+
+Encoding Text to Morse Code
+Converts a user-provided phrase (text) into its equivalent Morse code representation.
+
+Decoding Morse Code to Text
+Converts a user-provided Morse code sequence into its equivalent English text.
+
+Example output below
+
+Hello, this program allows you to translate text to morse code or translate morse code to text.
+Please, select one of the below options:
+*** Enter 't' for encoding text
+*** Enter 'm' for decoding morse code
+*** Enter 'e' to exit the program.
+t
+Please enter a phrase:
+Hello World
+MorseCode:
+.... . .-.. .-.. ---     .-- --- .-. .-.. -..
+Please, select one of the below options:
+*** Enter 't' for encoding text
+*** Enter 'm' for decoding morse code
+*** Enter 'e' to exit the program.
+m
+Please enter a Morse code:
+.... . .-.. .-.. ---    .-- --- .-. .-.. -..
+Normal Text:
+HELLO WORLD
+
+
+*/
+
+
+
 import java.util.Scanner;
 
 public class MorseCode {
