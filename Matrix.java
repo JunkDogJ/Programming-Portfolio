@@ -1,3 +1,13 @@
+/*
+
+This Java program defines a generic Matrix class that supports basic operations such as setting and getting elements, 
+printing the matrix, and adding two matrices with matching dimensions. The Main class demonstrates its functionality by 
+creating two 2x2 matrices, performing addition, and handling errors for incompatible matrix dimensions.
+
+*/
+
+
+
 // A generic Matrix class where T extends Number to allow numeric operations
 public class Matrix<T extends Number> {
     private T[][] matrix; // 2D array to store matrix elements
